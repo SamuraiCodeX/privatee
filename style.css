@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../Image/418376.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    resize: vertical;
+}
+
+.header {
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(40px);
+    width: 100%;
+    padding: 10px;
+    margin: -10px;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    box-shadow: 1px 3px 10px 1px #000000;
+}
+
+.head{
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.head-icon {
+    border-radius: 5em;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 2em;
+}
+
+.neck {
+    background-color: rgba(70, 34, 34, 0.1);
+    backdrop-filter: blur(40px);
+    border-radius: 5em;
+    margin: auto;
+    width: auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+.name-part {
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter:  blur(40px);
+    border-radius: 5em;
+}
+
+.name{
+    text-align: center;
+    color: black;
+}
+
+
+.content{
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    text-align: justify;
+    padding: 15px;
+    color: black;
+}
+
+.main-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.main-content a:active {
+    text-decoration: line-through;
+    color: grey;
+}
+
+#sub-content{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.first-box {
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    margin-top: 5px;
+    width: 35em;
+}
+
+.second-box{
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    margin-top: 5px;
+    width: 40em;
+    height: 14em;
+}
+
+.center-content ul{
+    text-align: justify;
+    color: black;
+}
+
+.third-box{
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    margin-top: 6px;
+    width: 40em;
+    height: 14em;
+}
+
+.bottom {
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-top: -1em;
+}
+
+.closing{
+    background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    width: 100%;
+    margin: -10px;
+    text-align: center;
+}
+
+.closing a {
+    text-decoration: none;
+    color: black;
+}
+
+.closing a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.social-media {
+    display: flex;
+        background-color: rgba(243, 240, 240, 0.800);
+    backdrop-filter: blur(10px);
+}
